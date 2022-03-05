@@ -4,7 +4,7 @@ This project contains a number of different design pattern courses found on Link
 
 ## Programming Foundations: Design Patterns
 
-[https://www.linkedin.com/learning/programming-foundations-design-patterns-2](https://www.linkedin.com/learning/programming-foundations-design-patterns-2) course on Linked In Learning.
+This course can be found at [https://www.linkedin.com/learning/programming-foundations-design-patterns-2](https://www.linkedin.com/learning/programming-foundations-design-patterns-2).
 
 - Strategy
 - Adapter
