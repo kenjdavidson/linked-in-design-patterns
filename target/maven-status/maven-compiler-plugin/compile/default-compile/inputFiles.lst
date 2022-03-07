@@ -1,1 +1,3 @@
-/workspaces/linked-in-design-patterns/design-patterns-java/src/main/java/kjd/linkedin/App.java
+/workspaces/linked-in-design-patterns/src/main/java/kjd/linkedin/strategy/duck/Duck.java
+/workspaces/linked-in-design-patterns/src/main/java/kjd/linkedin/strategy/duck/QuackBehavior.java
+/workspaces/linked-in-design-patterns/src/main/java/kjd/linkedin/strategy/duck/FlyBehavior.java
