@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StandardShare implements ShareBehaviour {
-    List<String> options = new ArrayList<>();
+    List<ShareStrategy> options = new ArrayList<>();
 
     public StandardShare() {
-        options.add("Email");
-        options.add("SMS");
+        options.add(new EmailShare());
+        options.add(new SMSShare());
     }
 
     @Override
-    public void share() {
-        System.out.println(options.toString());
+    public List<ShareStrategy> share() {
+        return options;
     }    
 
 

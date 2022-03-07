@@ -1,5 +1,7 @@
 package kjd.linkedin.strategy.camera.share;
 
+import java.util.List;
+
 public interface ShareBehaviour {
-    void share();
+    List<ShareStrategy> share();
 }
