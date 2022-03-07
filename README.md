@@ -1,6 +1,6 @@
 # Design Patterns - Java
 
-Reviewing design patterns in the context of Java.
+Reviewing design patterns in the context of Java.  
 
 ## Programming Foundations: Design Patterns
 
@@ -21,6 +21,9 @@ This course can be found at [https://www.linkedin.com/learning/programming-found
 - Weather 
 
 ### Decorator
+
+- Coffee
+
 ### Iterator
 ### Factory
 
