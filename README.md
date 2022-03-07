@@ -17,6 +17,9 @@ This course can be found at [https://www.linkedin.com/learning/programming-found
 - Ducks & Drones
 
 ### Observer
+
+
+
 ### Decorator
 ### Iterator
 ### Factory

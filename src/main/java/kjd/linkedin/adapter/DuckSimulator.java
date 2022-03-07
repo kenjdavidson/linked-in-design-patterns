@@ -5,10 +5,10 @@ import java.util.List;
 
 import kjd.linkedin.adapter.drone.DroneAdapter;
 import kjd.linkedin.adapter.drone.SuperDrone;
-import kjd.linkedin.adapter.duck.Duck;
 import kjd.linkedin.adapter.duck.TurkeyAdapter;
 import kjd.linkedin.adapter.duck.WildTurkey;
-import kjd.linkedin.adapter.duck.MallardDuck;
+import kjd.linkedin.strategy.duck.Duck;
+import kjd.linkedin.strategy.duck.MallardDuck;
 
 public class DuckSimulator {
     public static void main(String[] args) {

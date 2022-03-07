@@ -1,11 +1,13 @@
 package kjd.linkedin.adapter.duck;
 
+import kjd.linkedin.strategy.duck.Duck;
+
 /**
  * Implement the Turkey interface through the Duck.
  * 
  * @author kenjdavidson
  */
-public class TurkeyAdapter implements Duck {
+public class TurkeyAdapter extends Duck {
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {
@@ -13,14 +15,17 @@ public class TurkeyAdapter implements Duck {
     }
 
     @Override
-    public void quack() {
-        turkey.gobble();
+    public String quack() {
+        return turkey.gobble();
     }
 
     @Override
-    public void fly() {
-        turkey.fly();
+    public String fly() {
+        return turkey.fly();
     }
 
-    
+    @Override
+    public void display() {
+        System.out.println("Turkey");
+    }    
 }

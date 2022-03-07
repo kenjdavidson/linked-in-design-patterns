@@ -3,18 +3,18 @@ package kjd.linkedin.adapter.drone;
 public class SuperDrone implements Drone {
 
     @Override
-    public void beep() {
-        System.out.println("Beep!");
+    public String beep() {
+        return "Beep!";
     }
 
     @Override
-    public void spinRotors() {
-        System.out.println("Rotors are spinning");
+    public String spinRotors() {
+        return "Spinning rotors";
     }
 
     @Override
-    public void takeoff() {
-        System.out.println("Taking off");
+    public String takeoff() {
+        return "Taking off";
     }
     
 }

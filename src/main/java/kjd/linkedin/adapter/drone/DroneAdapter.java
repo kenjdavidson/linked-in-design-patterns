@@ -1,8 +1,8 @@
 package kjd.linkedin.adapter.drone;
 
-import kjd.linkedin.adapter.duck.Duck;
+import kjd.linkedin.strategy.duck.Duck;
 
-public class DroneAdapter implements Duck {
+public class DroneAdapter extends Duck {
 
     Drone drone;
 
@@ -11,14 +11,18 @@ public class DroneAdapter implements Duck {
     }
 
     @Override
-    public void quack() {
-        drone.beep();
+    public String quack() {
+        return drone.beep();
     }
 
     @Override
-    public void fly() {
-        drone.spinRotors();
-        drone.takeoff();
+    public String fly() {
+        return String.format("%s %s", drone.spinRotors(), drone.takeoff());
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Drone");
     }
     
 }

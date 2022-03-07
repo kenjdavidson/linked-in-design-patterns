@@ -3,13 +3,13 @@ package kjd.linkedin.adapter.duck;
 public class WildTurkey implements Turkey {
 
     @Override
-    public void gobble() {
-        System.out.println("Gobble!");
+    public String gobble() {
+        return "Gobble!";
     }
 
     @Override
-    public void fly() {
-        System.out.println("Fly short distance");
+    public String fly() {
+        return "Fly short distance";
     }
     
 }
