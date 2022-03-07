@@ -1,7 +1,6 @@
 package kjd.linkedin.strategy.camera.share;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class StandardShare implements ShareBehaviour {

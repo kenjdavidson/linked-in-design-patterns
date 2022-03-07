@@ -1,6 +1,5 @@
 package kjd.linkedin.strategy.camera;
 
-import kjd.linkedin.strategy.camera.edit.GlamourEdit;
 import kjd.linkedin.strategy.camera.edit.StandardEdit;
 import kjd.linkedin.strategy.camera.save.LocalSave;
 import kjd.linkedin.strategy.camera.share.StandardShare;
